@@ -1,0 +1,114 @@
+html, body {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/Background_b.jpg");
+    background-position: center center;
+}
+
+.boom{
+    background-image: url("../images/BOOM.png") ;
+}
+
+.binary{
+    background-image: url("../images/binary.png") ;
+}
+
+.header{
+    padding-top: 100px;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+
+.welcome{
+    padding-top: 100px;
+    text-align: center;
+    font-size: xxx-large;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.welcome_sub{
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+
+.puzzle_text{
+    padding-bottom: 20px;
+    font-size: xx-large;
+    color: white;
+    user-select: none;
+}
+
+.binary_text{
+    padding-bottom: 60px;
+    font-size: xx-large;
+    color: white;
+}
+
+.puzzle_object{
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+.answer_object{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+
+  .input_code{
+    text-align: center;
+    font-size: xx-large;
+    background: rgb(94, 94, 94);
+    color: white;
+    height: 60px;
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(184, 169, 37);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+
+  .input_code:focus{
+      border: 3px solid rgb(44, 40, 3);
+  }
+
+  .input_code::placeholder{
+      color: white;
+  }
+
+  .reciept{
+      height: 800px;
+  }
+
+  .mumin{
+    height: 500px;
+  }
+
+  .flex_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px 50px;
+    
+  }
+
+  .li{
+    height: 400px;
+    flex-grow: 1;
+  }
+
+  .flex_img{
+    max-height: 380px;
+    max-width: 700px;
+    object-fit: cover;
+    vertical-align: bottom;
+  }

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Startpage</title>
+
+    <link rel="icon" href="./images/puzzle_black.png">
+
+    <link rel="stylesheet" href="styles/basic.css">
+    <audio id="a_correct" src="audio/correct.mp3"></audio>
+
+    <script>
+      var audio_correct = document.getElementById("a_correct")
+      var delay = 800;
+      function startPuzzle(){
+        audio_correct.play();
+        setTimeout(function(){
+          window.location.href = "page1.html";
+        }, delay);
+      }
+    </script>
+    
+  </head>
+  <body>
+    <!-- Site content here -->
+    
+    <main>
+      <div>
+
+        <header class="welcome" >
+          Welcome to the breakout puzzle challenge
+        </header>
+        <p class="welcome_sub">
+          Your objective is to figure out all the puzzles and get to the end.
+        </p>
+        <p class="welcome_sub">
+          When you think you know the password, enter it in the box.
+        </p>
+        <p class="welcome_sub">
+          Both numbers and letters may be required. Letters are always entered in lowercase.
+        </p>
+        <p class="welcome_sub">
+          Good luck!
+        </p>
+        
+        <div class="answer_object">
+            <input class="input_code" id="start" type="button" onclick="startPuzzle()" value="START">
+          
+        </div>
+
+      </div>
+    </main>
+
+    <script src="scripts/main.js"></script>
+
+  </body>
+</html>
