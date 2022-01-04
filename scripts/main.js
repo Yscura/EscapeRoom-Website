@@ -81,7 +81,7 @@
 
       case "2":
         //Sagrada familia
-        pw = "172,5";
+        pw = "172,50";
         break;
       
       case "3":
@@ -105,13 +105,13 @@
         break;
 
       case "7":
-        //Binary stongehenge
+        //Binary coords
         pw = "stonehenge";
         break;
 
       case "8":
         //Mumin
-        pw = "lilla my";
+        pw = "little my";
         break;
 
       case "9":
@@ -120,9 +120,19 @@
         break;
 
       case "10":
-        //Start text
-        pw = "think";
+        //Bot
+        pw = "discover";
         break;
+
+      case "11":
+        //Ceasar
+        pw = "discover";
+        break;
+
+      case "12":
+      //Start text
+      pw = "think";
+      break;
 
     }
     return pw;
