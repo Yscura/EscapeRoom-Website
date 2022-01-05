@@ -17,10 +17,34 @@ html, body {
     background-image: url("../images/binary.png") ;
 }
 
+.champion{
+    background-image: url("../images/confetti.gif");
+    background-position: center center;
+    background-size: cover;
+}
+
 .media_resizeable{
     width: 90vw;
     max-width: 800px;
     max-height: 500px;
+}
+
+.champion_resizeable{
+    width: 90vw;
+    max-width: 600px;
+    max-height: 500px;
+}
+
+.champion_text{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+
+.champion_text_sub{
+    text-align: center;
+    font-size: x-large;
+    color: white;
 }
 
 .header{
@@ -62,6 +86,11 @@ html, body {
     text-align: center;
 }
 
+.champion_object{
+    padding-top: 40px;
+    text-align: center;
+}
+
 
 .answer_object{
     padding-top: 100px;
@@ -70,54 +99,68 @@ html, body {
 }
 
 
-  .input_code{
-    text-align: center;
-    font-size: xx-large;
-    background: rgb(94, 94, 94);
+.input_code{
+text-align: center;
+font-size: xx-large;
+background: rgb(94, 94, 94);
+color: white;
+height: 60px;
+width: 250px;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: 3px solid rgb(184, 169, 37);
+-webkit-transition: 0.5s;
+transition: 0.5s;
+outline: none;
+}
+
+.input_code:focus{
+    border: 3px solid rgb(44, 40, 3);
+}
+
+.input_code::placeholder{
     color: white;
-    height: 60px;
-    width: 250px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 3px solid rgb(184, 169, 37);
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
+}
+
+.reciept{
+    height: 800px;
+}
+
+.mumin{
+height: 500px;
+}
+
+.flex_box{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 50px 50px;
+
+}
+
+.li{
+height: 400px;
+flex-grow: 1;
+}
+
+.flex_img{
+max-height: 380px;
+max-width: 700px;
+object-fit: cover;
+vertical-align: bottom;
+}
+
+.btn-group button {
+    background-color: #b4b49c; 
+    border: 2px solid rgb(0, 0, 0); 
+    color: rgb(0, 0, 0);
+    padding: 10px 24px;
+    cursor: pointer;
+  }
+  
+  .btn-group button:hover {
+    background-color: #6d6d5f;
   }
 
-  .input_code:focus{
-      border: 3px solid rgb(44, 40, 3);
-  }
 
-  .input_code::placeholder{
-      color: white;
-  }
-
-  .reciept{
-      height: 800px;
-  }
-
-  .mumin{
-    height: 500px;
-  }
-
-  .flex_box{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 50px 50px;
-    
-  }
-
-  .li{
-    height: 400px;
-    flex-grow: 1;
-  }
-
-  .flex_img{
-    max-height: 380px;
-    max-width: 700px;
-    object-fit: cover;
-    vertical-align: bottom;
-  }
